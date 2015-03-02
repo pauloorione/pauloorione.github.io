@@ -1,27 +1,20 @@
 body{
 	font-family: sans-serif;
-	font-size:16px;
+	font-size:18px;
 	text-align: center;
+	background-image: url("images/bg1.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
-
-li{
-	display: inline;
-	padding: 20px;
-	text-align: center;
-}
-
-hr {
-width: 500px;
+hr{
+	width: 100px;
+	color: white;
 }
 
 p{
-	font-size: 1.5em;
+	font-size: 1.2em;
 	text-align: center;
 }
 
@@ -30,6 +23,34 @@ h1{
 	text-align: center;
 }
 h2{
-	font-family: serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 2em;
+}
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper {
+	position:relative;
+}
+
+#header {
+	padding:10px;
+}
+li.nav {
+
+}
+#content {
+	padding:10px;
+}
+#slogan{
+	font-style: italic;
+	font-size: 1.5em;
+	border: 10px;
+}
+#description{
+	line-height: 30px;
+	margin-right: 120px;
+	margin-left: 120px;
 }
