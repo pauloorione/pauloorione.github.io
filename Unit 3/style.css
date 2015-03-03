@@ -1,14 +1,17 @@
 body{
-	font-family: sans-serif;
+	font-family: 'Abel', sans-serif;
 	font-size:18px;
 	text-align: center;
 	background-image: url("images/bg1.jpeg");
 	background-size: cover;
 }
+img{
+	padding-top: 0px;
+}
 
 }
 hr{
-	width: 100px;
+	size:10px;
 	color: white;
 }
 
@@ -16,7 +19,7 @@ p{
 	font-size: 1em;
 	text-align: justify;
 	text-indent: 30px;
-	line-height: 30px;
+	line-height: 40px;
 	margin-right: 120px;
 	margin-left: 120px;
 }
@@ -37,13 +40,16 @@ body {
 #wrapper {
 	min-height: 100%;
 	position:relative;
-	padding-bottom: 100px;
+	padding-bottom: 30px;
 }
 
 #header {
 	padding:10px;
 	padding-top: 0px;
 	padding-bottom: 30px;
+}
+li #header{
+
 }
 ul {
     list-style-type: none;
@@ -53,14 +59,14 @@ ul {
 li {
 	display: inline;
 	padding: 20px;
+	padding-bottom: 0px;
 }
 a {
 	text-decoration: none;
 	color: #000;
-
+	font-weight: 800px;
 }
 #content {
-	padding:50px;
 }
 #slogan{
 	font-style: italic;
@@ -69,8 +75,6 @@ a {
 	text-align: center;
 	text-indent: 0px;
 }
-#description{
-	line-height: 30px;
 	margin-right: 120px;
 	margin-left: 120px;
 }
