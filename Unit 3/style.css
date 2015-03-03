@@ -60,12 +60,14 @@ li {
 	display: inline;
 	padding: 20px;
 	padding-bottom: 0px;
+	text-transform: uppercase;
 }
-a {
+a{
 	text-decoration: none;
-	color: #000;
 	font-weight: 800px;
+	color: #000;
 }
+
 #content {
 }
 #slogan{
