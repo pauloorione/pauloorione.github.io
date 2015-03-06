@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Cotextualize it!</title>
+</head>
+<body>
+	<div id="nav">
+	<!-- My intention here is to create a full widht menu -->
+	<!-- question: how do I align things vertically without using the "aling" property? -->
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.png"></a>			
+		</div>
+		<div id="menu">
+			<ul>		
+				<li><a href="index.html">products</a></li>
+				<li><a href="projects.html">interior designs</a></li>
+				<li><a href="about.html">about</a></li>
+				<li><a href="contactus.html">contact us</a></li>
+			</ul>
+		</div>	
+	</div>
+	<!-- end of navigation -->
+	<hr>
+
