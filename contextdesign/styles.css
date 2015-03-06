@@ -1,0 +1,133 @@
+/*----------------------------- CORE CSS -----------------------------  */
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 16px;
+	color: #7d7d7d;
+}
+h1{
+	font-weight: 100;
+	font-size: 3em;
+	padding: 10px;
+	text-align: left;
+}
+h2{
+	font-size: 2em;
+	font-weight: 100;
+	padding: 10px;
+	margin: 10px;
+}
+hr{
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border-style:
+}
+/*----------------------------- NAVIGATION -----------------------------  */
+#nav{
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+}
+#nav a{
+	text-decoration: none;
+	color: #7d7d7d;
+}
+#nav a:hover{
+	text-decoration: underline;
+	color: #34495e;
+}
+#nav li{
+	display: inline;
+	padding: 4em;
+	text-transform: uppercase;
+	line-height: 1.5em;
+}
+#nav img{
+	height: 120px;
+}
+/*----------------------------- MAIN STORY -----------------------------  */
+#mainstory img{
+	height: 997px;
+
+}
+/*----------------------------- OTHER STORIES -----------------------------  */
+#otherstories{
+	text-align: center;
+	padding-bottom: 40px;
+}
+#otherstories img{
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	height: 497px;
+}
+/*----------------------------- CLASSES -----------------------------  */
+.title h1{
+	padding: 5em;
+}
+/*why the hell is this title not working???*/
+.mission{
+	font-size: 1.2em;
+	font-weight: 100;
+	padding-bottom: 10px;
+}
+.mission a{
+	text-decoration: none;
+}
+.button {
+  padding: 5px 50px 5px 50px;	
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
+  text-align: center;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.button a:hover {
+  padding: 5px 50px 5px 50px;	
+  border: 1px solid #666;
+  color: #000;
+  text-decoration:none;
+  text-align: center;
+  position: absolute;
+  margin-top: 20px;
+}
+
+/*----------------------------- FOOTER -----------------------------  */
+
+#footer {
+    clear: both;
+    /*what does clear do exactly?*/
+    position: relative;
+    /*what does position do exactly?*/
+    height: 20em;
+    margin-top: 1em;
+    padding-top: 20px;
+}
+#footer img{
+	float: left;
+	display: inline;
+}
+/*----------------------------- PRODUCT OF THE DAY DETAIL -----------------------------  */
+
+#productinfo img{
+	display: inline;
+	float: left;
+	padding: 20px;
+}
+
+
+
+
+
+
