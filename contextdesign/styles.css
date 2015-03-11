@@ -45,6 +45,23 @@ a:hover{
 	text-decoration: underline;
 	color: #7d7d7d;
 }
+form{
+	autocomplete: on;
+	padding: 10px 0px 100px 10px;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 100;
+}
+form input{
+	height: 1.5em;
+	font-size: 1em;
+	background-color: white;
+}
+form textarea{
+	font-size: 1em;
+	color: #7d7d7d;
+}
 /*----------------------------- NAVIGATION -----------------------------  */
 
 nav{
@@ -93,23 +110,26 @@ header img{
 	padding: 5em;
 }
 /*why the hell is this title not working???*/
-.mission{
-	font-size: 1.2em;
-	font-weight: 100;
-	padding-bottom: 10px;
-}
-.mission a{
-	text-decoration: none;
-}
+
 .button {
   padding: 5px 50px 5px 50px;	
   border: 1px solid #666;
   color:#000;
   text-decoration:none;
   text-align: center;
-  position: absolute;
   margin-top: 20px;
   font-weight: 200;
+  float: right;
+}
+.submit {
+  padding: 5px 50px 5px 50px;	
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 200;
+  float: left;
 }
 
 .button a:hover {
@@ -137,7 +157,23 @@ footer img{
 	float: left;
 	display: inline;
 	height: 200px;
+	padding: 0 20px;
 }
+
+footer p{
+	font-size: 0.9em;
+	font-weight: 100;
+	padding-bottom: 10px;
+}
+footer a{
+	text-decoration: none;
+}	
+.copy p{
+	font-size: 0.6em;
+	font-weight: 100;
+	padding-bottom: 10px;
+}
+
 /*----------------------------- PRODUCT OF THE DAY DETAIL -----------------------------  */
 
 .productinfo img{
@@ -162,7 +198,11 @@ footer img{
 	float: right;
 	padding: 2px;
 }
-/*----------------------------- INTERIOR DESIGNS -----------------------------  */
-
-
+/*----------------------------- ABOUT US -----------------------------  */
+.aboutus{
+	padding-bottom: 50px;
+}
+.aboutus p{
+	font-size: 1.2em;
+}
 
