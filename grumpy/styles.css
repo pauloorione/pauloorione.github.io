@@ -5,43 +5,81 @@ padding: 0;
 
 body{
 	font-family: sans-serif;
-	max-width: 950px;
-	min-width: 900px;
+	max-width: 1000px;
+	min-width: 990px;
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 16px;
-	color: #fff;
-	background-color: #2c3e50;
-
+	color: #000;
+    background-image: url("bg2.png");
+    background-repeat: repeat;
+	font-family: 'Slabo 27px', serif;
 }
 
 header{
 	padding: 20px 5px;
 
 }
+.wrapper{
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 0px 40px;
+	max-width: 995px;
+	min-width: 985px;
+	margin-bottom: 0px;
+	padding: 20px 20px;
+}
 
 .vote img{
 	border-style: solid;
 	border-color: white;
 	border-width: 5px;
+	margin: 10px;
 }
 .vote h3{
 	text-align: center;
-	padding: 10px 0px;
+	padding: 5px 0px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 2em;
 }
 .option1{
 	float: left;
 }
 .option2{
-	float: right;
+
+}
+.submit{
+	display: block;
+	margin: 20px;
+
+}
+.submit button{
+	margin-left: 0px;
+	margin-top: 20px;
+	background-color:#e74c3c
 }
 
 button{
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 10px 20px;
-	border-color: green;
-	background-color: blue;
-	color: white;
+    background-color: #3498db;
+    border-radius:10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    margin: 10px;
 }
+button:hover{
+	background-color: #2980b9;
+}
+
+button :active{
+	box-shadow: 10px;
+}
+
+
+
+
+
+
