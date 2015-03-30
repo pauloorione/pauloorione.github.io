@@ -19,13 +19,12 @@ header{
 .wrapper{
 	background-color: rgba(255, 255, 255, 0.9);
 	max-width: 995px;
-	margin-bottom: 0px;
+	margin:auto;
 	padding: 20px;
 }
 
 .vote img{
 	border:5px solid #ffffff;
-	padding: 10px;
 	width:100%;
 }
 .vote h3{
