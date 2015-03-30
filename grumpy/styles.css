@@ -1,18 +1,14 @@
 * {
 margin: 0;
 padding: 0;
+box-sizing:border-box;
 }
 
 body{
-	font-family: sans-serif;
-	max-width: 1000px;
-	min-width: 990px;
-	margin-right: auto;
-	margin-left: auto;
 	font-size: 16px;
 	color: #000;
-    background-image: url("bg2.png");
-    background-repeat: repeat;
+	background-image: url("bg2.png");
+	background-repeat: repeat;
 	font-family: 'Slabo 27px', serif;
 }
 
@@ -22,18 +18,15 @@ header{
 }
 .wrapper{
 	background-color: rgba(255, 255, 255, 0.9);
-	padding: 0px 40px;
 	max-width: 995px;
-	min-width: 985px;
 	margin-bottom: 0px;
-	padding: 20px 20px;
+	padding: 20px;
 }
 
 .vote img{
-	border-style: solid;
-	border-color: white;
-	border-width: 5px;
-	margin: 10px;
+	border:5px solid #ffffff;
+	padding: 10px;
+	width:100%;
 }
 .vote h3{
 	text-align: center;
@@ -41,11 +34,10 @@ header{
 	font-family: 'Indie Flower', cursive;
 	font-size: 2em;
 }
-.option1{
+.option{
 	float: left;
-}
-.option2{
-
+	width:50%;
+	padding:1em;
 }
 .submit{
 	display: block;
