@@ -49,7 +49,7 @@ header{
 	background-color:#e74c3c
 }
 
-button{
+.button{
 	display: block;
     background-color: #3498db;
     border-radius:10px;
@@ -60,14 +60,62 @@ button{
     cursor: pointer;
     border:none;
     margin: 10px;
+    text-align: center;
+    max-width: auto;
 }
-button:hover{
+.button:hover{
 	background-color: #2980b9;
 }
 
-button :active{
+.button:active{
 	box-shadow: 10px;
 }
+
+.bottomstuff{
+	display: inline-block;
+}
+.bottomstuff2{
+	display: inline-block;
+	float: right;
+}
+
+.bottomstuff .button{
+	max-width: 400px;
+}
+a {
+	text-decoration: none;
+}
+/*WINNER*/
+
+.winner{
+text-align: center;
+}
+
+.winnersection{
+	width:100%;
+	margin:auto;
+}
+.winnersection img{
+	border:5px solid gold;
+	display: block;
+	margin: auto;
+}
+.winnersection h3{
+	text-align: center;
+	padding: 5px 0px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
