@@ -1,0 +1,246 @@
+body{
+	font-size: 16px;
+	font-family: "Open Sans";
+	font-weight: 400;
+	width: 90%;
+	margin: auto;
+	color: #7d7d7d;
+}
+hr{
+	border-style: dashed;
+	border-color: #bdc3c7;
+}
+
+a{
+	text-decoration: none;
+	color: #7d7d7d;
+}
+a:hover{
+	color: red;
+}
+
+.logo {
+	height: 3em;
+	display: inline-block;
+	clear: both;
+	padding-top: 0.5em;
+}
+.chair {
+	height: 50px;
+	display: inline-block;
+	padding-top: 0.5em;
+	float: left
+}
+
+nav {
+	display: block;
+	padding: 1.5em 1em;
+	float: right;
+}
+nav a {
+	font-size: 0.8em;
+	padding: 10px 15px;
+	text-transform: uppercase;
+}
+nav a:hover {
+	background-color: #ecf0f1;
+	color: #c0392b;
+}
+
+#hero {
+	clear: both;
+	background-image: url("img/hero2.jpg");
+	min-height: 500px;
+	background-size: cover;
+}
+
+#hero h1 {
+	font-size: 8em;
+	font-weight: 800;
+	text-align: center;
+	padding-top: 0.8em;
+	color: white;
+	display: block;
+}
+#hero h2 {
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: center;
+	padding: 20px 50px;
+	line-height: 1.4em;
+	color: white;
+	background-color: rgba(255, 183, 0, 0.5);
+
+
+
+
+
+/*	background-color: rgba(0, 0, 0, 0.5);*/
+}
+
+.boxes{
+	margin: auto;
+	text-align: center;
+	text-transform: capitalize;
+}
+.boxes a {
+	min-width: 27%;
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px;
+	color: #34495e;
+	outline: solid;
+	outline-width: 3px;
+	outline-color: #34495e;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+.boxes a:hover{
+	outline: solid;
+	color: #2980b9;
+	outline-color: #2980b9;
+}
+
+.clients{
+	max-width: 1200px;
+	margin: inherit;
+	padding: 10px 20px 10px 20px;
+}
+.clients h2{
+	color: #34495e;
+	font-size: 2em;
+	margin-bottom: 1em;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+}
+.clients img{
+	width: 10%;
+	padding: 10px 10px;
+	margin: 0px 10px;
+}
+
+footer {
+	background-image: url(img/footer4.jpg);
+	min-height: 12em;
+	color: white;
+}
+footer section {
+	width: 27%;
+	display: inline-block;
+	padding: 2em 1em;
+}
+footer h3{
+	font-weight: 400;
+	font-size: 1.2em;
+}
+footer p{
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding-top: 1em;
+}
+
+
+@media only screen and (min-width: 950px){
+	.chair{
+		display: none;
+	}
+}
+@media only screen and (max-width: 950px) {
+	.logo{
+		display: none;
+	}
+	nav a{
+		padding: 10px 5px;
+		font-size: 0.8em;
+	}
+	.boxes a {
+		min-width: 90%;
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 500px ) and (max-width: 800px) {
+	body{
+		font-size: 14px;
+	}
+	nav a{
+		font-size: .8em;
+	}
+	#hero h1 {
+		font-size: 7em;
+	}
+	.clients img{
+		min-width: 25%;
+		padding: 10px 10px;
+		margin: auto;
+		display: inline-block;
+	}
+	.clients{
+		max-width: 800px;
+		margin: auto;
+		padding: 10px 20px 10px 20px;
+}
+}	
+
+@media only screen and (min-width: 500px) and (max-width: 600px){
+		nav #menu1, #menu2 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.chair{
+		height: 40px;
+	}
+	nav a{
+		font-size: .65em;
+	}
+	nav #menu1, #menu2 {
+		display: none;
+	}
+	#hero{
+		background-image: url(img/hero_m.jpg);
+		min-height: 250px;
+	}
+	#hero h1 {
+		font-size: 4em;
+		font-weight: 800;
+		text-align: center;
+		padding-top: 0.8em;
+		color: white;
+		display: inline-block;
+	}
+	#hero h2 {
+		font-size: 1.2em;
+		font-weight: 300;
+		text-align: center;
+		padding: 20px 50px;
+		line-height: 1.4em;
+		color: white;
+		background-color: rgba(0, 0, 0, 0);
+	}
+	.clients img{
+		width: 40%;
+		padding: 10px 10px;
+		margin: auto;
+		display: inline-block;
+	}
+	footer section{
+		width: 40%;
+	}
+	footer h3{
+		font-size: 1em;
+	}
+	footer p{
+		font-size: .9em;
+	}
+
+}
+
+
+
+
+
+
