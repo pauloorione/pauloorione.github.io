@@ -6,11 +6,14 @@ body{
 	margin: auto;
 	color: #7d7d7d;
 }
-hr{
-	border-style: dashed;
-	border-color: #bdc3c7;
-}
 
+h2{
+	font-size: 1.6em;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: grey;
+	text-align: center;
+}
 a{
 	text-decoration: none;
 	color: #7d7d7d;
@@ -70,12 +73,7 @@ nav a:hover {
 	line-height: 1.4em;
 	color: white;
 	background-color: rgba(255, 183, 0, 0.5);
-
-
-
-
-
-/*	background-color: rgba(0, 0, 0, 0.5);*/
+	text-transform: none;
 }
 
 .boxes{
@@ -102,26 +100,22 @@ nav a:hover {
 }
 
 .clients{
-	max-width: 1200px;
-	margin: inherit;
+	max-width: 1000px;
+	margin: auto;
 	padding: 10px 20px 10px 20px;
+
 }
-.clients h2{
-	color: #34495e;
-	font-size: 2em;
-	margin-bottom: 1em;
-	font-weight: 400;
-	text-align: center;
-	text-transform: uppercase;
-}
+
 .clients img{
-	width: 10%;
+	width: 12%;
+	vertical-align: middle;
 	padding: 10px 10px;
-	margin: 0px 10px;
+	margin-left: 20px;
 }
 
 footer {
 	background-image: url(img/footer4.jpg);
+	background-size: cover;
 	min-height: 12em;
 	color: white;
 }
@@ -192,10 +186,12 @@ footer p{
 
 @media only screen and (max-width: 500px) {
 	.chair{
-		height: 40px;
+		height: 30px;
+		float: left;
+		padding-top: 1em;
 	}
 	nav a{
-		font-size: .65em;
+		font-size: .6em;
 	}
 	nav #menu1, #menu2 {
 		display: none;
@@ -221,11 +217,19 @@ footer p{
 		color: white;
 		background-color: rgba(0, 0, 0, 0);
 	}
+	.clients{
+		max-width: 1000px;
+		margin: auto;
+	}
+	.clients h2{
+		display: block;
+	}
 	.clients img{
 		width: 40%;
 		padding: 10px 10px;
 		margin: auto;
 		display: inline-block;
+		vertical-align: middle;
 	}
 	footer section{
 		width: 40%;
@@ -238,9 +242,3 @@ footer p{
 	}
 
 }
-
-
-
-
-
-
