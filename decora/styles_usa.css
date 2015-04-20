@@ -15,7 +15,7 @@ h2{
 	font-weight: 300;
 	text-transform: uppercase;
 	color: grey;
-	text-align: center;
+	text-align: left;
 	padding: 1em 1em .5em 1em;
 }
 a{
@@ -101,15 +101,16 @@ nav a:hover {
 #hero h1 {
 	font-size: 6em;
 	font-weight: 800;
-	text-align: center;
+	text-align: left;
 	padding-top: 0.8em;
+	padding-left: .5em;
 	color: white;
 	display: block;
 }
 #hero h2 {
 	font-size: 2em;
 	font-weight: 300;
-	text-align: center;
+	text-align: left;
 	padding: 20px 50px;
 	line-height: 1.4em;
 	color: white;
@@ -143,7 +144,15 @@ nav a:hover {
 	max-width: 1000px;
 	margin: auto;
 	padding: 10px 20px 10px 20px;
-
+	clear: both;
+}
+.clients h2{
+	margin: none;
+	padding: none;
+	text-align: center;
+	font-size: 3em;
+	font-weight: 700;
+	color: #2c3e50;
 }
 
 .clients img{
@@ -151,6 +160,7 @@ nav a:hover {
 	vertical-align: middle;
 	padding: .5em .5em;
 	margin-left: 20px;
+	text-align: center;
 }
 
 footer {
@@ -211,19 +221,26 @@ footer p{
 	text-align: left;
 	font-size: 3em;
 	font-weight: 700;
-	color: #d35400;
+	color: #e67e22;
+	line-height: 1em;
 }
 #ambientacao {
 	font-size: 1.2em;
 	line-height: 1.7em;
 }
+#ambientacao .btn{
+	background-color: #e67e22;
+	border-bottom-color: #d35400;
+}
+
 #recomendacao {
 	clear: both;
 	font-size: 1.2em;
-	line-height: 1.7em;
+	line-height: 2em;
+	margin: auto;
 }
 #recomendacao h2{
-	text-align: left;
+	text-align: center;
 	font-size: 3em;
 	font-weight: 700;
 	color: #27ae60;
@@ -235,11 +252,11 @@ footer p{
 }
 #recomendacao p{
 	margin-left: 60px;
+	text-align: center;
 }
 #recomendacao .btn{
-		margin-left: 60px;
+	width: 100%;
 }
-
 
 /*FIM EMPRESAS ---------------------------------------------------------------------------------*/
 
