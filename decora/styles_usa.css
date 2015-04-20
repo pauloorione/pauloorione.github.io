@@ -11,7 +11,7 @@ hr {
 }
 
 h2{
-	font-size: 1.6em;
+	font-size: 2em;
 	font-weight: 300;
 	text-transform: uppercase;
 	color: grey;
@@ -99,7 +99,7 @@ nav a:hover {
 }
 
 #hero h1 {
-	font-size: 8em;
+	font-size: 6em;
 	font-weight: 800;
 	text-align: center;
 	padding-top: 0.8em;
@@ -107,7 +107,7 @@ nav a:hover {
 	display: block;
 }
 #hero h2 {
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: 300;
 	text-align: center;
 	padding: 20px 50px;
