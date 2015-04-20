@@ -6,6 +6,9 @@ body{
 	margin: auto;
 	color: #7d7d7d;
 }
+hr {
+	border-color: #bdc3c7;
+}
 
 h2{
 	font-size: 1.6em;
@@ -13,6 +16,7 @@ h2{
 	text-transform: uppercase;
 	color: grey;
 	text-align: center;
+	padding: 1em 1em .5em 1em;
 }
 a{
 	text-decoration: none;
@@ -20,6 +24,25 @@ a{
 }
 a:hover{
 	color: red;
+}
+
+.btn {
+	background-color: #2ecc71;
+	display: block;
+	padding: 20px 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #27ae60;
+	border-bottom-width: 5px;
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+	width: 400px;
+	float: left;
+	text-align: center;
+}
+.btn:hover{
+	color: white;
+
 }
 
 .logo {
@@ -46,8 +69,25 @@ nav a {
 	text-transform: uppercase;
 }
 nav a:hover {
-	background-color: #ecf0f1;
+	background-color: #fdfdfd;
 	color: #c0392b;
+	border-bottom-color: #e74c3c;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+}
+.subnav{
+	float: none;
+	text-align: center;
+}
+.subnav a{
+	font-size: 1em;
+
+}
+.subnav a:hover{
+	border-top-color: #e74c3c;
+	border-top-style: solid;
+	border-top-width: 3px;
+	border-bottom-style: none;
 }
 
 #hero {
@@ -86,17 +126,17 @@ nav a:hover {
 	display: inline-block;
 	padding: 10px 10px 10px 10px;
 	margin: 10px 10px;
-	color: #34495e;
+	color: #c0392b;
 	outline: solid;
 	outline-width: 3px;
-	outline-color: #34495e;
+	outline-color: #c0392b;
 	font-weight: 800;
 	margin-bottom: 20px;
 }
 .boxes a:hover{
 	outline: solid;
-	color: #2980b9;
-	outline-color: #2980b9;
+	color: #e74c3c;
+	outline-color: #e74c3c;
 }
 
 .clients{
@@ -109,15 +149,14 @@ nav a:hover {
 .clients img{
 	width: 12%;
 	vertical-align: middle;
-	padding: 10px 10px;
+	padding: .5em .5em;
 	margin-left: 20px;
 }
 
 footer {
-	background-image: url(img/footer4.jpg);
-	background-size: cover;
-	min-height: 12em;
-	color: white;
+	background-color: #f2f2f2;
+	min-height: 8em;
+	color: #c0392b;
 }
 footer section {
 	width: 27%;
@@ -126,15 +165,59 @@ footer section {
 }
 footer h3{
 	font-weight: 400;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 footer p{
 	font-weight: 300;
-	font-size: 1em;
+	font-size: 0.8em;
 	line-height: 1.5em;
 	padding-top: 1em;
 }
 
+
+/*EMPRESAS ---------------------------------------------------------------------------------*/
+
+.sectionhero {
+	clear: both;
+	background-color: #e74c3c;
+	min-height: 300px;
+	background-size: cover;
+}
+
+.sectionhero h1 {
+	font-size: 4em;
+	font-weight: 800;
+	text-align: left;
+	padding-top: 0.8em;
+	padding-left: 0.8em;
+	color: white;
+	display: block;
+}
+.sectionhero h2 {
+	font-size: 2em;
+	font-weight: 300;
+	text-align: left;
+	padding: 20px 50px;
+	line-height: 1.4em;
+	color: white;
+	text-transform: none;
+}
+#ambientacao img{
+	float: left;
+	margin: 2em;
+}
+#ambientacao h2{
+	text-align: left;
+	font-size: 3em;
+	font-weight: 700;
+}
+#ambientacao {
+	font-size: 1.2em;
+}
+
+
+
+/*FIM EMPRESAS ---------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 950px){
 	.chair{
@@ -177,6 +260,8 @@ footer p{
 		padding: 10px 20px 10px 20px;
 }
 }	
+
+/*  RESPONSIVIDADE PARA DESKTOP */
 
 @media only screen and (min-width: 500px) and (max-width: 600px){
 		nav #menu1, #menu2 {
@@ -221,9 +306,7 @@ footer p{
 		max-width: 1000px;
 		margin: auto;
 	}
-	.clients h2{
-		display: block;
-	}
+
 	.clients img{
 		width: 40%;
 		padding: 10px 10px;
@@ -242,3 +325,21 @@ footer p{
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
