@@ -78,6 +78,7 @@ nav a:hover {
 .subnav{
 	float: none;
 	text-align: center;
+	background-color: #fdfdfd;
 }
 .subnav a{
 	font-size: 1em;
@@ -98,52 +99,64 @@ nav a:hover {
 }
 
 #hero h1 {
-	font-size: 8em;
+	font-size: 6.3em;
 	font-weight: 800;
-	text-align: center;
-	padding-top: 0.8em;
+	text-align: left;
+	padding-top: 0.5em;
+	padding-left: .5em;
 	color: white;
 	display: block;
 }
 #hero h2 {
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: 300;
-	text-align: center;
-	padding: 20px 50px;
+	text-align: left;
+	padding-top: 0.8em;
+	padding-left: 2em;
 	line-height: 1.4em;
 	color: white;
-	background-color: rgba(255, 183, 0, 0.5);
 	text-transform: none;
 }
 
 .boxes{
+	background-color: #f39c12;
 	margin: auto;
 	text-align: center;
 	text-transform: capitalize;
+	min-height: 70px;
 }
 .boxes a {
 	min-width: 27%;
 	display: inline-block;
 	padding: 10px 10px 10px 10px;
-	margin: 10px 10px;
-	color: #c0392b;
+	margin: 15px 10px;
+	color: white;
 	outline: solid;
 	outline-width: 3px;
-	outline-color: #c0392b;
+	outline-color: white;
 	font-weight: 800;
-	margin-bottom: 20px;
+	vertical-align: middle;
+	font-size: 1.5em;
 }
 .boxes a:hover{
+	background-color: white;
 	outline: solid;
-	color: #e74c3c;
-	outline-color: #e74c3c;
+	color: #f39c12;
+	outline-color: #95a5a6;
 }
 
 .clients{
 	max-width: 1000px;
 	margin: auto;
 	padding: 10px 20px 10px 20px;
-
+}
+.clients h2{
+	text-align: center;
+	font-size: 3em;
+	font-weight: 700;
+	color: #2c3e50;
+	line-height: 1em;
+	padding-top: 2em;
 }
 
 .clients img{
@@ -180,12 +193,12 @@ footer p{
 .sectionhero {
 	clear: both;
 	background-color: #e74c3c;
-	min-height: 300px;
+	min-height: 200px;
 	background-size: cover;
 }
 
 .sectionhero h1 {
-	font-size: 4em;
+	font-size: 3em;
 	font-weight: 800;
 	text-align: left;
 	padding-top: 0.8em;
@@ -194,7 +207,7 @@ footer p{
 	display: block;
 }
 .sectionhero h2 {
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 300;
 	text-align: left;
 	padding: 20px 50px;
@@ -210,9 +223,41 @@ footer p{
 	text-align: left;
 	font-size: 3em;
 	font-weight: 700;
+	color: #e67e22;
+	line-height: 1em;
 }
 #ambientacao {
 	font-size: 1.2em;
+	line-height: 1.7em;
+}
+#ambientacao .btn{
+	background-color: #e67e22;
+	border-bottom-color: #d35400;
+}
+
+#recomendacao {
+	clear: both;
+	font-size: 1.2em;
+	line-height: 2em;
+	margin: auto;
+}
+#recomendacao h2{
+	text-align: center;
+	font-size: 3em;
+	font-weight: 700;
+	color: #27ae60;
+}
+#recomendacao img{
+	display: block;
+	margin: auto;
+	padding: 30px;
+}
+#recomendacao p{
+	margin-left: 60px;
+	text-align: center;
+}
+#recomendacao .btn{
+	width: 100%;
 }
 
 

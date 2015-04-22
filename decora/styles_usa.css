@@ -168,6 +168,7 @@ footer {
 	min-height: 8em;
 	color: #c0392b;
 	clear: both;
+	margin-top: 3em;
 }
 footer section {
 	width: 27%;
@@ -259,6 +260,22 @@ footer p{
 }
 
 /*FIM EMPRESAS ---------------------------------------------------------------------------------*/
+/*FORM STUFF ---------------------------------------------------------------------------------*/
+	
+.form {
+	margin: 2em;
+	padding-bottom: 4em;
+}
+.form-group {
+	margin: 1em;
+}
+
+
+
+
+/*FIM FORM STUFF ---------------------------------------------------------------------------------*/
+
+
 
 @media only screen and (min-width: 950px){
 	.chair{
