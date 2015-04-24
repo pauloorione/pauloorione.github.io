@@ -1,19 +1,26 @@
 body{
 	font-size: 16px;
 	font-family: "Open Sans";
-	font-weight: 400;
+	font-weight: 300;
 	width: 90%;
 	margin: auto;
 	color: #7d7d7d;
+	line-height: 1.6em;
 }
-hr {
-	border-color: #bdc3c7;
+
+h1{
+	font-size: 3em;
+	font-weight: 700;
+	color: #e74c3c;
+	text-align: center;
+	padding: 20px;
+	line-height: 1em;
+
 }
 
 h2{
 	font-size: 1.6em;
 	font-weight: 300;
-	text-transform: uppercase;
 	color: grey;
 	text-align: center;
 	padding: 1em 1em .5em 1em;
@@ -37,14 +44,13 @@ a:hover{
 	font-weight: 700;
 	text-transform: uppercase;
 	width: 400px;
-	float: left;
+	float: none;
 	text-align: center;
 }
 .btn:hover{
 	color: white;
 
 }
-
 .logo {
 	height: 3em;
 	display: inline-block;
@@ -94,7 +100,7 @@ nav a:hover {
 #hero {
 	clear: both;
 	background-image: url("img/hero2.jpg");
-	min-height: 500px;
+	min-height: 450px;
 	background-size: cover;
 }
 
@@ -119,30 +125,31 @@ nav a:hover {
 }
 
 .boxes{
-	background-color: #f39c12;
+	background-color: #e74c3c;
 	margin: auto;
 	text-align: center;
 	text-transform: capitalize;
-	min-height: 70px;
+	min-height: 90px;
+	vertical-align: middle;
 }
 .boxes a {
 	min-width: 27%;
 	display: inline-block;
 	padding: 10px 10px 10px 10px;
-	margin: 15px 10px;
+	margin: 22px;
 	color: white;
 	outline: solid;
 	outline-width: 3px;
 	outline-color: white;
-	font-weight: 800;
+	font-weight: 700;
 	vertical-align: middle;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 .boxes a:hover{
 	background-color: white;
 	outline: solid;
-	color: #f39c12;
-	outline-color: #95a5a6;
+	color: #c0392b;
+	outline-color: #c0392b;
 }
 
 .clients{
@@ -151,12 +158,12 @@ nav a:hover {
 	padding: 10px 20px 10px 20px;
 }
 .clients h2{
-	text-align: center;
-	font-size: 3em;
+	text-align: left;
+	font-size: 2em;
 	font-weight: 700;
 	color: #2c3e50;
 	line-height: 1em;
-	padding-top: 2em;
+	padding-top: 4em;
 }
 
 .clients img{
@@ -170,6 +177,7 @@ footer {
 	background-color: #f2f2f2;
 	min-height: 8em;
 	color: #c0392b;
+	margin-top: 30px;
 }
 footer section {
 	width: 27%;
@@ -192,27 +200,25 @@ footer p{
 
 .sectionhero {
 	clear: both;
-	background-color: #e74c3c;
-	min-height: 200px;
+	background-color: #ecf0f1;
 	background-size: cover;
 }
 
 .sectionhero h1 {
-	font-size: 3em;
-	font-weight: 800;
+	font-size: 2.5em;
+	font-weight: 300;
 	text-align: left;
-	padding-top: 0.8em;
-	padding-left: 0.8em;
-	color: white;
+	padding: 30px 50px 0px 50px;
+	color: #2c3e50;
 	display: block;
 }
 .sectionhero h2 {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-weight: 300;
 	text-align: left;
 	padding: 20px 50px;
 	line-height: 1.4em;
-	color: white;
+	color: #2c3e50;
 	text-transform: none;
 }
 #ambientacao img{
@@ -221,29 +227,32 @@ footer p{
 }
 #ambientacao h2{
 	text-align: left;
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight: 700;
 	color: #e67e22;
 	line-height: 1em;
 }
-#ambientacao {
-	font-size: 1.2em;
+#ambientacao p{
+	font-size: 1.1em;
 	line-height: 1.7em;
+	font-weight: 300;
 }
 #ambientacao .btn{
 	background-color: #e67e22;
 	border-bottom-color: #d35400;
+	display: inline-block;
+	clear: both;	
 }
 
 #recomendacao {
 	clear: both;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	line-height: 2em;
 	margin: auto;
 }
 #recomendacao h2{
 	text-align: center;
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight: 700;
 	color: #27ae60;
 }
@@ -257,12 +266,101 @@ footer p{
 	text-align: center;
 }
 #recomendacao .btn{
-	width: 100%;
+	width: 700px;
+	margin: auto;	
 }
 
 
-
 /*FIM EMPRESAS ---------------------------------------------------------------------------------*/
+/* PAGINA PARA PROFISSIONAIS ---------------------------------------------------------------------------------*/
+.opcoes img{
+	float: left;
+	margin: 20px;
+	display: block;
+}
+.opcoes h2{
+	text-align: left;
+	font-weight: 700;
+	font-size: 2em;	
+	color: #e74c3c;
+	line-height: 1em;
+}
+.opcoes h3{
+	text-align: left;
+	font-weight: 700;
+	font-size: 1.5em;
+	color: #bdc3c7;
+}
+.opcao1 {
+	display: block;
+	clear: both;
+	margin: 40px 0px;
+}
+.opcao1 p{
+	line-height: 1.6em;
+	font-weight: 300;
+}
+.opcao1 a{
+	float: none;
+	margin: auto;
+	text-decoration: underline;
+}
+.opcao1 p+h3{
+	padding-top: 10px;
+}
+.opcoes .btn {
+	margin: auto;
+	float: none;
+	width: 800px;
+	font-size: 2em;
+	clear: both;
+}
+}
+
+
+/* FIM PAGINA PARA PROFISSIONAIS ---------------------------------------------------------------------------------*/
+/* PAGINA PARA CLIENTES ---------------------------------------------------------------------------------*/
+.projeto img{
+	display: block;
+	float: none;
+	margin: auto;
+	padding: 30px;
+}
+.projeto{
+	clear: both;
+	margin-top: 40px;
+}
+.video {
+	height: 380px;
+	float: left;
+	padding-right: 20px;
+}
+.comofunciona h1{
+	text-align: left;
+}
+.comofunciona a{
+	clear: both;
+	display: inline-block;
+}
+
+/* FIM PAGINA PARA CLIENTES ---------------------------------------------------------------------------------*/
+/* INFOAMBIENTACAO ---------------------------------------------------------------------------------*/
+#etapasamb h1{
+	float: right;
+	display: block;
+}
+#etapasamb p{
+	float: right;
+	clear: right;
+}
+#etapasamb img{
+	float: left;
+	display: block;
+}
+
+
+/* FIM INFOAMBIENTACAO ---------------------------------------------------------------------------------*/
+
 
 @media only screen and (min-width: 950px){
 	.chair{
@@ -277,13 +375,16 @@ footer p{
 		padding: 10px 5px;
 		font-size: 0.8em;
 	}
+	.boxes{
+		padding: 1px 5px;
+	}
 	.boxes a {
-		min-width: 90%;
+		min-width: 80%;
 		display: block;
 	}
 }
 
-@media only screen and (min-width: 500px ) and (max-width: 800px) {
+@media only screen and (min-width: 500px ) and (max-width: 800px){
 	body{
 		font-size: 14px;
 	}
@@ -291,7 +392,10 @@ footer p{
 		font-size: .8em;
 	}
 	#hero h1 {
-		font-size: 7em;
+		font-size: 5em;
+	}
+	#hero h2 {
+		padding-left: 35px;
 	}
 	.clients img{
 		min-width: 25%;
@@ -303,10 +407,9 @@ footer p{
 		max-width: 800px;
 		margin: auto;
 		padding: 10px 20px 10px 20px;
-}
+	}
 }	
 
-/*  RESPONSIVIDADE PARA DESKTOP */
 
 @media only screen and (min-width: 500px) and (max-width: 600px){
 		nav #menu1, #menu2 {
@@ -331,9 +434,9 @@ footer p{
 		min-height: 250px;
 	}
 	#hero h1 {
-		font-size: 4em;
+		font-size: 3em;
 		font-weight: 800;
-		text-align: center;
+		text-align: left;
 		padding-top: 0.8em;
 		color: white;
 		display: inline-block;
@@ -341,11 +444,14 @@ footer p{
 	#hero h2 {
 		font-size: 1.2em;
 		font-weight: 300;
-		text-align: center;
-		padding: 20px 50px;
+		text-align: left;
+		padding: 20px 25px;
 		line-height: 1.4em;
 		color: white;
 		background-color: rgba(0, 0, 0, 0);
+	}
+	.boxes {
+		font-size: .8em;
 	}
 	.clients{
 		max-width: 1000px;
