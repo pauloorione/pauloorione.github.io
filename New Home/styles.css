@@ -1,0 +1,172 @@
+body{
+	font-size: 16px;
+	font-family: "Open Sans";
+	font-weight: 300;
+	width: 100%;
+	margin: auto;
+	color: #7d7d7d;
+	line-height: 1.5em;
+	min-width: 1000px;	
+}
+a {
+	text-decoration: none;
+	color: #a1a1a1;
+}
+h1{
+	font-size: 4em;
+	line-height: 1.6em;
+	color: black;
+}
+h2{
+	font-size: 3em;
+	line-height: 1.4em;
+}
+h3{
+	font-size: 2em;
+	line-height: 1em;
+}
+
+/*HEADER<---------------------------------------------*/
+header img {
+	float: left;
+}
+
+header nav {
+	display: block;
+	float: right;
+	padding: 20px;
+}
+header nav a{
+	padding: 30px;
+}
+
+/*HERO<---------------------------------------------*/
+.hero {
+	clear: left;
+	height: 50em;
+	background-size: cover;
+	background-image: url("images/hero_index.jpg");
+	background-repeat: none;
+	background-position: center;
+	text-align: center;
+}
+.hero h1{
+	padding-top: .5em;
+	line-height: 1em;
+}
+.hero p{
+	font-size: 1.5em;
+	color: black;
+}
+/*NAV MENU<---------------------------------------------*/
+.menu{
+	display: block;
+	text-align: center;
+	background-color: black;
+	height: 2em;
+	padding-top: .5em;
+}
+.menu nav a{
+	padding: 70px;
+	color: white;
+}
+.menu nav a:hover{
+	padding: 70px;
+	color: #8FAF6A;
+}
+/*CONTENT<---------------------------------------------*/
+
+.content{
+	height: 650px;
+}
+.content div{
+	max-width: 14400px;
+}
+.content h2{
+	font-size: 3em;
+	color: black;
+	letter-spacing: 3px;
+}
+.content p{
+	font-size: 1.2em;
+	line-height: 2.5em;
+	letter-spacing: 2px;
+}
+.content a{
+	color: #8fa86a;
+	font-size: 1.5em;
+}
+.content a:hover{
+	text-decoration: underline;
+}
+.content h4{
+	font-size: 1.5em;
+	margin-top: 2em;
+}
+.imgleft{
+	float: left;
+	margin-right: 5em;
+}
+.imgright{
+	float: right;
+	margin-left: 5em;
+}
+.txtright{
+	padding-top: 104px;
+	padding-left: 6.5em;
+	display: block;
+	height: 546px;
+
+}
+.txtleft{
+	padding-top: 6.5em;
+	padding-left: 6.5em;
+
+}
+
+a.cta{
+	display: inline-block;
+	background-color: #8fa86a;
+	padding: 20px 50px;		
+	border-bottom: solid;
+	border-bottom-color: #6B874B;
+	border-bottom-width: 5px;
+	color: white;
+	margin-right:3em;
+	margin-top: 1em;
+}
+a.cta:hover{
+	background-color: #719339;
+	text-decoration: none;
+}
+
+.gray{
+	background-color: #e8e8e8;
+	height: 650px;
+}
+.white{
+	background-color: white;
+	height: 650px;
+}
+
+
+
+footer{
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
