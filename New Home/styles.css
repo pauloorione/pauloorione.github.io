@@ -6,7 +6,6 @@ body{
 	margin: auto;
 	color: #7d7d7d;
 	line-height: 1.5em;
-	min-width: 1000px;	
 }
 a {
 	text-decoration: none;
@@ -67,11 +66,11 @@ header nav a{
 	padding-top: .5em;
 }
 .menu nav a{
-	padding: 70px;
+	padding: 3em;
 	color: white;
 }
 .menu nav a:hover{
-	padding: 70px;
+	padding: 3em;
 	color: #8FAF6A;
 }
 /*CONTENT<---------------------------------------------*/
@@ -79,11 +78,8 @@ header nav a{
 .content{
 	height: 650px;
 }
-.content div{
-	max-width: 14400px;
-}
 .content h2{
-	font-size: 3em;
+	font-size: 2.5em;
 	color: black;
 	letter-spacing: 3px;
 }
@@ -112,10 +108,8 @@ header nav a{
 	margin-left: 5em;
 }
 .txtright{
-	padding-top: 104px;
+	padding-top: 6.5em;
 	padding-left: 6.5em;
-	display: block;
-	height: 546px;
 
 }
 .txtleft{
@@ -126,8 +120,9 @@ header nav a{
 
 a.cta{
 	display: inline-block;
+	max-width: 8em;
 	background-color: #8fa86a;
-	padding: 20px 50px;		
+	padding: 1em 2em;		
 	border-bottom: solid;
 	border-bottom-color: #6B874B;
 	border-bottom-width: 5px;
@@ -149,16 +144,153 @@ a.cta:hover{
 	height: 650px;
 }
 
-
+/*FOOTER*/
 
 footer{
-	clear: both;
+	display: inline-block;
+	background-color: #2c3e50;
+	width: 100%;
+}
+
+footer section{
+	display: inline-block;
+	padding: 2em;
+	float: left;
+}
+footer h3 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #8d8d8d;
+	font-size: 1.5em;
+	line-height: 2em;	
+}
+footer li {
+	color: #bdc3c7;
+	text-decoration: none;
+	line-height: 3em;
+	font-size: 1em;
+	letter-spacing: 3px;
 }
 
 
+/*MEDIA QUERIES*/
 
+@media only screen and (max-width: 1100px){
+	body{
+	font-size: 14px
+	}
+	.txtright{
+	padding-top: 5em;
+	padding-left: 6.5em;
+	}
+	.txtleft{
+	padding-top: 5em;
+	padding-left: 6.5em;
+	}
+	.gray{
+	background-color: #e8e8e8;
+	height: 500px;
+	}
+	.gray img{
+	height: 500px;
+	}
+	.white{
+	background-color: white;
+	height: 500px;
+	}
+	.white img{
+	height: 500px;
+	}
+	.content p{
+	font-size: 1.2em;
+	line-height: 2em;
+	letter-spacing: 2px;
+	}
+	.content h4{
+	display: none;
+	}
+}	
+@media only screen and (max-width: 837px){
+	.menu nav a{
+		padding: 1em;
+	}
+	.menu nav a:hover{
+	padding: 1em;
+	}
+}
+@media only screen and (max-width: 807px){
+	.content h2 {
+		font-size: 2em;
+	}
+}
+@media only screen and (max-width: 750px){
+	body{
+	font-size: 12px
+	}
 
+	.content h2 {
+		font-size: 2em;
+	}
+}
 
+@media only screen and (max-width: 691px){
+	.content p{
+		line-height: 1.5em;
+	}
+
+@media only screen and (max-width: 665px){
+	.hero p{
+		display: none;
+	}
+	.hero{
+		text-align: center;
+	}
+
+	.imgright, .imgleft{
+		display: none;
+	}
+	.white, .gray{
+		height: 300px;
+		display: inline-block;
+		clear: both;
+	}
+	footer{
+		display: none;
+	}
+@media only screen and (max-width: 500px){
+	.hero{
+		background-image: url("images/hero_index_mobile.jpg");
+		display: block;
+	}
+	.hero h2{
+		font-size: 1.5em;
+	}
+	.hero h1{
+		font-size: 3.5em;
+		text-align: center;
+	}
+	.txtright{
+	padding-top: 2em;
+	padding-left: 3em;
+	}
+	.txtleft{
+	padding-top: 2em;
+	padding-left: 3em;
+	}
+	.menu {
+	display: block;
+	clear: both;
+	height: 170px;
+	}
+	.menu a{
+		display:block;
+	}
+	header img{
+		display: none;
+	}
+	nav a{
+		color: black;
+	}
 
 
 
