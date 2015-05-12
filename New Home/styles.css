@@ -47,7 +47,7 @@ header nav a{
 	clear: left;
 	height: 50em;
 	background-size: cover;
-	background-image: url("images/hero_index.jpg");
+	background-image: url("images/hero_index7.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
@@ -58,11 +58,12 @@ header nav a{
 	padding-top: .5em;
 	line-height: 1em;
 }
+.hero h2{
+}
 .hero p{
 	font-size: 1.5em;
 	color: black;
-	max-width: none;
-}
+	max-width: none;}
 /*NAV MENU<---------------------------------------------*/
 .menu{
 	display: block;
