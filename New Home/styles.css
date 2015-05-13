@@ -38,9 +38,21 @@ header nav {
 	float: right;
 	padding: 20px;
 }
+header nav:hover{
+	display: block;
+	float: right;
+	padding: 20px;
+}
 header nav a{
 	padding: 30px;
 }
+header nav a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+
+
 
 /*HERO<---------------------------------------------*/
 .hero {
@@ -74,12 +86,17 @@ header nav a{
 	padding-top: .5em;
 }
 .menu nav a{
+	display: inline;
 	padding: 3em;
 	color: white;
 }
 .menu nav a:hover{
 	padding: 3em;
 	color: #8FAF6A;
+	text-decoration: underline;
+}
+.branca{
+	display: none;
 }
 /*CONTENT<---------------------------------------------*/
 
@@ -113,39 +130,39 @@ header nav a{
 }
 .imgleft{
 	float: left;
-	margin-right: 5em;
+	padding-right: 7em;
 }
 .imgright{
 	float: right;
-	margin-left: 5em;
+	padding-left: 3em;
 }
 .txtright{
 	padding-top: 6.5em;
 	padding-left: 6.5em;
-
 }
 .txtleft{
 	padding-top: 6.5em;
 	padding-left: 6.5em;
 	max-width: 800px;
+	margin-right: 5em;	
 
 }
 
 a.cta{
 	display: inline-block;
-	max-width: 8em;
 	background-color: #8fa86a;
-	padding: 1em 2em;		
+	padding: 0.6em 1.5em;		
 	border-bottom: solid;
 	border-bottom-color: #6B874B;
 	border-bottom-width: 5px;
 	color: white;
-	margin-right:3em;
-	margin-top: 1em;
+	margin: 1em;
+	margin-left: 0px;
+	margin-right: 5px;
+
 }
 a.cta:hover{
 	background-color: #719339;
-	text-decoration: none;
 }
 
 .gray{
@@ -159,6 +176,19 @@ a.cta:hover{
 	display: block;
 
 }
+a.saiba{
+	display: inline-block;
+	background-color: #3498db;
+	padding: 0.6em 1.5em;		
+	border-bottom: solid;
+	border-bottom-color: #2980b9;
+	border-bottom-width: 5px;
+	color: white;
+	margin: 0px;
+}
+a.saiba:hover{
+		background-color: #347FD7;
+}
 
 /*FOOTER*/
 
@@ -171,8 +201,10 @@ footer{
 
 footer section{
 	display: inline-block;
-	padding: 2em;
 	float: left;
+	width: 23%;
+	padding: 1%;
+	min-height: 200px;
 }
 footer h3 {
 	text-transform: uppercase;
@@ -189,6 +221,8 @@ footer li {
 	font-size: 1em;
 	letter-spacing: 3px;
 }
+/*HAMBURGER MENU<---------------------------------------------*/
+
 
 
 /*MEDIA QUERIES*/
@@ -248,6 +282,9 @@ footer li {
 	body{
 	font-size: 12px
 	}
+	menu nav a{
+		font-size: 2em;
+	}
 
 	.content h2 {
 		font-size: 2em;
@@ -257,6 +294,12 @@ footer li {
 @media only screen and (max-width: 691px){
 	.content p{
 		line-height: 1.5em;
+	}
+	.menu nav a{
+		padding: 0.5em;
+	}
+	.menu nav a:hover{
+		padding: 0.5em;
 	}
 
 @media only screen and (max-width: 665px){
@@ -281,15 +324,35 @@ footer li {
 	}
 @media only screen and (max-width: 500px){
 
+
+
+
+	div.branca{
+		display: inline-block;
+		float: left;
+		padding-top: 20px;
+	}
+	.vermelha{
+		display: none;
+	}
+
 	header nav a{
 		color: white;
 		font-size: 1.5em;
+		display: inline-block;
+		padding-left: 10px;
+		padding-bottom: 20px;
 
+	}
+	header nav a:hover{
+		color: white;
+		text-decoration: underline;
 	}
 	.hero{
 		background-image: none;
 		background-color: #c0392b;
 		display: block;
+		padding: 2em;
 	}
 	.hero h2{
 		font-size: 3em;
@@ -308,30 +371,33 @@ footer li {
 	}
 	.hero p{
 	display: none;	}
-	
+
 	.txtright{
-	padding-top: 2em;
-	padding-left: 3em;
+	padding: 2em;
 	}
 	.txtleft{
-	padding-top: 2em;
-	padding-left: 3em;
+	padding: 2em;
+	}
+	.menu nav a {
+	display: inline-block;
+	width: 30%;
+	clear: both;
+	vertical-align: middle;
 	}
 	.menu {
-	display: block;
-	clear: both;
-	height: 170px;
-	}
-	.menu a{
-		display:block;
-	}
-	header img{
-		display: none;
+		display: block;
+		height: 70px;
 	}
 	nav a{
 		color: black;
 	}
+	footer{
+		padding-left: 2em;
+	}
+	footer section{
+		width: 45%
 
+	}
 
 
 
