@@ -324,9 +324,6 @@ footer li {
 	}
 @media only screen and (max-width: 500px){
 
-
-
-
 	div.branca{
 		display: inline-block;
 		float: left;
@@ -398,8 +395,32 @@ footer li {
 		width: 45%
 
 	}
-
-
+@media only screen and (max-width: 320px){
+	body{
+		font-size: 10px;
+	}
+	.hero{
+		height: 40em;
+	}
+	.hero h1{
+		font-size: 5em;
+	}
+	.menu {
+		height: 100px;
+	}
+	.menu nav a{
+		font-size: 1.5em;
+	}
+	.gray{
+		height: 250px;
+	}
+	.white{
+		height: 250px;
+	}
+	.txtleft{
+		padding: 2em;
+		padding-right: 0px;
+	}
 
 
 
