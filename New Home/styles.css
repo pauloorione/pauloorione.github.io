@@ -139,6 +139,7 @@ header nav a:hover{
 .txtright{
 	padding-top: 6.5em;
 	padding-left: 6.5em;
+	padding-right: 1em;
 }
 .txtleft{
 	padding-top: 6.5em;
@@ -264,6 +265,9 @@ footer li {
 	.content h4{
 	display: none;
 	}
+	.hero h2{
+		font-size: 2.5em;
+	}
 }	
 @media only screen and (max-width: 837px){
 	.menu nav a{
@@ -271,6 +275,9 @@ footer li {
 	}
 	.menu nav a:hover{
 	padding: 1em;
+	}
+	.hero h2{
+		font-size: 2.5em;
 	}
 }
 @media only screen and (max-width: 807px){
@@ -282,6 +289,9 @@ footer li {
 	body{
 	font-size: 12px
 	}
+	.hero h2{
+		font-size: 2.5em;
+	}
 	menu nav a{
 		font-size: 2em;
 	}
@@ -292,6 +302,12 @@ footer li {
 }
 
 @media only screen and (max-width: 691px){
+	.hero p{
+		display: none;
+	}
+	.hero h2{
+		font-size: 2em;
+	}
 	.content p{
 		line-height: 1.5em;
 	}
@@ -303,10 +319,6 @@ footer li {
 	}
 
 @media only screen and (max-width: 665px){
-4
-	.hero p{
-		display: none;
-	}
 	.hero{
 		text-align: center;
 	}
@@ -380,6 +392,7 @@ footer li {
 	width: 30%;
 	clear: both;
 	vertical-align: middle;
+	text-align: left;
 	}
 	.menu {
 		display: block;
