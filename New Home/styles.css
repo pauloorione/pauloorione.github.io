@@ -308,13 +308,12 @@ footer li {
 	text-align: center;
 }
 .imgblock{
+	width: 30%;
+	padding: 1%;
 	display: inline-block;
-	width: 350px;
-	padding: 30px;
 }
 .imgblock img{
-	width: 350px;
-	height: 250px;
+	width: 100%;
 }
 .imgblock p{
 	text-align: left;
@@ -406,17 +405,24 @@ footer li {
 	}
 
 	#cfamb{
-		max-width: 1100px;
 		margin: auto;
 		text-align: center;
+		display: block;
 	}
 	.imgblock{
-		width: 60%;
+		display: inline-block;
+		margin: auto;
+		padding-left: none;
+	}
+	.imgblock h4{
 		text-align: center;
 	}
 	.imgblock p{
-		padding-bottom: 5%;s
+		padding-bottom: 5%;
+		text-align: center;
 	}
+
+
 
 }	
 @media only screen and (max-width: 837px){
@@ -498,9 +504,7 @@ footer li {
 	.galery img{
 	width: 40%;
 	}
-	.imgblock{
-		width: 100%;
-	}
+
 
 @media only screen and (max-width: 500px){
 
@@ -530,6 +534,7 @@ footer li {
 		background-color: #c0392b;
 		display: block;
 		padding: 2em;
+		text-align: left;
 	}
 
 	#homecover h2{
@@ -540,13 +545,57 @@ footer li {
 	}
 
 	#homecover h1{
-		font-size: 70px;
+		font-size: 40px;
 		text-align: left;
 		color: white;
 		font-weight: 600;
 		padding-top: 100px;
-
 	}
+
+	#designer1 h2{
+		font-size: 30px;
+		color: white;
+		text-align: left;
+		padding-top: 20px;
+	}
+
+	#designer1 h1{
+		font-size: 40px;
+		text-align: left;
+		color: white;
+		font-weight: 600;
+		padding-top: 100px;
+	}
+	#designer1{
+		background-image: none;
+		background-color: #c0392b;
+		display: block;
+		padding: 2em;
+		text-align: left;
+	}
+
+	#empresas h2{
+		font-size: 30px;
+		color: white;
+		text-align: left;
+		padding-top: 20px;
+	}
+
+	#empresas h1{
+		font-size: 40px;
+		text-align: left;
+		color: white;
+		font-weight: 600;
+		padding-top: 100px;
+	}
+	#empresas{
+		background-image: none;
+		background-color: black;
+		display: block;
+		padding: 2em;
+		text-align: left;
+	}
+
 	.hero p{
 	display: none;	}
 
