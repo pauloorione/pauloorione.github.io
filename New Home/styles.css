@@ -197,7 +197,13 @@ header nav a:hover{
 	padding-left: 6.5em;
 	max-width: 800px;
 	margin-right: 5em;	
-
+}
+.txtcenter{
+	text-align: justify;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	max-width: 800px;
+	margin: auto;
 }
 
 a.cta{
@@ -222,12 +228,25 @@ a.cta:hover{
 	height: 650px;
 	display: block;
 }
+.graycenter{
+	background-color: #e8e8e8;
+	height: 400px;
+	display: block;
+	margin: auto;
+	}
 .white{
 	background-color: white;
 	height: 650px;
 	display: block;
-
 }
+.whitecenter{
+	background-color: white;
+	height: 400px;
+	display: block;
+	margin: auto;
+	max-width: 1100px;
+	padding-top: 40px;
+	}
 a.saiba{
 	display: inline-block;
 	background-color: #3498db;
@@ -328,6 +347,7 @@ footer li {
 .galery{
 	display: block;
 	text-align: center;
+	background-color: #e8e8e8;
 }
 .galery img{
 	width: 30%;
@@ -356,9 +376,9 @@ footer li {
 	color: black;
 }
 
-
-/*HAMBURGER MENU<---------------------------------------------*/
-
+#ga{
+	background-color: #e8e8e8;
+}
 
 
 /*MEDIA QUERIES*/
@@ -378,6 +398,12 @@ footer li {
 	.gray{
 	background-color: #e8e8e8;
 	height: 500px;
+	}
+	.graycenter{
+	background-color: #e8e8e8;
+	padding: 20px;
+	padding-top: 0px;
+	margin-top: 0px;
 	}
 	.gray img{
 	height: 500px;
