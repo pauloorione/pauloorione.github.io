@@ -349,6 +349,14 @@ footer li {
 	text-align: center;
 	background-color: #e8e8e8;
 }
+.whitegalery{
+	display: block;
+	text-align: center;
+	background-color: white;
+}
+.whitegalery img{
+	width: 30%;
+}
 .galery img{
 	width: 30%;
 }
@@ -377,7 +385,7 @@ footer li {
 }
 
 #ga{
-	background-color: #e8e8e8;
+	background-color: white;
 }
 
 
@@ -406,11 +414,9 @@ footer li {
 	margin-top: 0px;
 	}
 	.gray img{
-	height: 500px;
 	}
 	.white{
 	background-color: white;
-	height: 500px;
 	}
 	.white img{
 	height: 500px;
@@ -509,6 +515,17 @@ footer li {
 	.menu nav a:hover{
 		padding: 0.5em;
 	}
+	.demo{
+		display: none;
+	}
+	.txtcenter{
+		text-align: left;
+		padding-left: 0em;
+	}
+	.whitecenter{
+		padding-left: 1em;
+		margin-top: 0px;
+	}
 
 
 @media only screen and (max-width: 665px){
@@ -520,7 +537,7 @@ footer li {
 		display: none;
 	}
 	.white, .gray{
-		height: 300px;
+		height: 400px;
 		display: inline-block;
 		clear: both;
 	}
@@ -530,6 +547,10 @@ footer li {
 	.galery img{
 	width: 40%;
 	}
+	.whitegalery img{
+	width: 40%;
+	}
+	
 
 
 @media only screen and (max-width: 500px){
@@ -557,7 +578,7 @@ footer li {
 	}
 	#homecover{
 		background-image: none;
-		background-color: #c0392b;
+		background-color: #2980b9;
 		display: block;
 		padding: 2em;
 		text-align: left;
@@ -594,7 +615,29 @@ footer li {
 	}
 	#designer1{
 		background-image: none;
-		background-color: #c0392b;
+		background-color: #d35400;
+		display: block;
+		padding: 2em;
+		text-align: left;
+	}
+
+	#designer2 h2{
+		font-size: 30px;
+		color: white;
+		text-align: left;
+		padding-top: 20px;
+	}
+
+	#designer2 h1{
+		font-size: 40px;
+		text-align: left;
+		color: white;
+		font-weight: 600;
+		padding-top: 100px;
+	}
+	#designer2{
+		background-image: none;
+		background-color: #27ae60;
 		display: block;
 		padding: 2em;
 		text-align: left;
@@ -616,7 +659,7 @@ footer li {
 	}
 	#empresas{
 		background-image: none;
-		background-color: black;
+		background-color: #3d566e;
 		display: block;
 		padding: 2em;
 		text-align: left;
@@ -626,10 +669,11 @@ footer li {
 	display: none;	}
 
 	.txtright{
-	padding: 2em;
+	padding: 1em;
 	}
 	.txtleft{
-	padding: 2em;
+	padding: 1em;
+	margin-right: 0px;
 	}
 	.menu nav a {
 	display: inline-block;
@@ -646,12 +690,15 @@ footer li {
 		color: black;
 	}
 	footer{
-		padding-left: 2em;
+		padding-left: 1em;
 	}
 	footer section{
 		width: 45%;
 	}
 	.galery img{
+		width: 100%;
+	}
+	.whitegalery img{
 		width: 100%;
 	}
 	.imgblock {
@@ -663,7 +710,7 @@ footer li {
 		font-size: 10px;
 	}
 	.hero{
-		height: 30em;
+		height: 40em;
 	}
 	.hero h1{
 		font-size: 4em;
@@ -675,10 +722,10 @@ footer li {
 		font-size: 1.5em;
 	}
 	.gray{
-		height: 250px;
+		height: 300px;
 	}
 	.white{
-		height: 250px;
+		height: 300px;
 	}
 	.txtleft{
 		padding: 2em;
@@ -687,7 +734,24 @@ footer li {
 	.imgblock img{
 		width: 320px;
 	}
-
+	.whitegalery{
+		width: 320px;
+	}
+	.whitegalery img{
+		width: 320px;
+	}
+	.faq{
+		max-width: 280px;
+	}
+	.cfamb{
+		padding: none;
+	}
+	.imgblock{
+		width: 300px;
+	}
+	.imgblock img{
+		width: 290px;
+	}
 
 
 
