@@ -1,6 +1,6 @@
 body{
 	font-size: 16px;
-	font-family: "Open Sans";
+	font-family: "Open Sans", Sans-sefif;
 	font-weight: 300;
 	width: 100%;
 	margin: auto;
@@ -15,20 +15,28 @@ h1{
 	font-size: 4em;
 	line-height: 1.6em;
 	color: black;
+	font-weight: 700;
+	font-family: 'Bitter', serif;
 }
 h2{
-	font-size: 3em;
+	font-size: 2.5em;
 	line-height: 1.4em;
+	font-weight: 400;
+
 }
 h3{
 	font-size: 2em;
 	line-height: 1em;
+	padding: 30px;
 }
 p{
-	max-width: 1150px;
+	max-width: 2000px;
 }
 
 /*HEADER<---------------------------------------------*/
+
+header{
+}
 header img {
 	float: left;
 }
@@ -51,7 +59,9 @@ header nav a:hover{
 	color: red;
 }
 
-
+.hidden {
+	display: none;	
+}
 
 
 /*HERO<---------------------------------------------*/
@@ -65,7 +75,9 @@ header nav a:hover{
 	max-width: 1990px;
 	margin: auto;
 }
-
+.hero h1 div{
+	display: inline-block;
+}
 #homecover {
 	background-image: url("images/hero_index7.jpg");
 	background-size: cover;
@@ -97,6 +109,13 @@ header nav a:hover{
 	background-position: center;
 	padding-top: 50px;
 }
+#reccover {
+	background-image: url("images/rec/reccover4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 50px;
+}
 #designer1 h2{
 	color: white;
 }
@@ -112,15 +131,16 @@ header nav a:hover{
 #projetoonline h2{
 	color: black;
 }
-
+#reccover h2{
+	color: black;
+}
 #homecover h2{
-	color: darkgreen;
+	color: black;
 }
 
 .hero h1{
 	padding-top: .5em;
 	line-height: 1em;
-	font-weight: 600;
 }
 .hero h2{
 }
@@ -129,22 +149,45 @@ header nav a:hover{
 	color: black;
 	max-width: none;}
 /*NAV MENU<---------------------------------------------*/
+
+.entrar{
+	border: solid #303030 1px;
+	border-radius: 10px;
+}
+.entrar:hover{
+	border: solid #2ecc71 1px;
+	border-radius: 10px;
+}
+.regularmenu{
+	display: inline-block;
+	text-transform: lowercase;
+}
 .menu{
 	display: block;
 	text-align: center;
 	background-color: black;
-	height: 2em;
+	height: 5em;
 	padding-top: .5em;
 }
 .menu nav a{
-	display: inline;
-	padding: 3em;
+	display: inline-block;
+	padding: 1em;
 	color: white;
+	padding-top: 1.5em;
 }
 .menu nav a:hover{
-	padding: 3em;
-	color: #8FAF6A;
-	text-decoration: underline;
+	padding: 1em;
+	padding-top: 1.5em;
+	color: #2ecc71;
+}
+.menu img {
+	display: inline-block;
+	vertical-align: middle;
+	padding-bottom: 5px;
+}
+.xmenu {
+	display: inline-block;
+	text-transform: uppercase;
 }
 .branca{
 	display: none;
@@ -156,7 +199,7 @@ header nav a:hover{
 	max-width: 1600px;
 }
 .content img{
-	max-height: 750px;
+	max-width: 750px;
 }
 .content h2{
 	font-size: 2.5em;
@@ -209,7 +252,7 @@ header nav a:hover{
 a.cta{
 	display: inline-block;
 	background-color: #8fa86a;
-	padding: 0.6em 1.5em;		
+	padding: 1em 1.5em;		
 	border-bottom: solid;
 	border-bottom-color: #6B874B;
 	border-bottom-width: 5px;
@@ -230,7 +273,7 @@ a.cta:hover{
 }
 .graycenter{
 	background-color: #e8e8e8;
-	height: 400px;
+	padding-bottom: 40px;
 	display: block;
 	margin: auto;
 	}
@@ -241,24 +284,23 @@ a.cta:hover{
 }
 .whitecenter{
 	background-color: white;
-	height: 400px;
+	padding-bottom: 40px;
 	display: block;
 	margin: auto;
 	max-width: 1100px;
-	padding-top: 40px;
 	}
 a.saiba{
 	display: inline-block;
-	background-color: #3498db;
-	padding: 0.6em 1.5em;		
-	border-bottom: solid;
-	border-bottom-color: #2980b9;
-	border-bottom-width: 5px;
+	background-color: #f39c12;
+	padding: 0.5em 1.5em;		
 	color: white;
-	margin: 0px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	margin-left: 0px;
 }
 a.saiba:hover{
-		background-color: #347FD7;
+	background-color: #e67e22;
+	text-decoration: none;
 }
 .demo{
 	max-width: 1400px;
@@ -277,8 +319,19 @@ a.saiba:hover{
 .clients img {
 	padding: 8px;
 	height: 25px;
+	padding-top: 25px;
 }
-
+.clients2{
+	text-align: center;
+	padding: 30px;
+}
+.clients2 img{
+	height: 40px;
+	margin: 20px;
+}
+.products img{
+	width: 15%;
+}
 /*FOOTER*/
 
 footer{
@@ -304,7 +357,7 @@ footer h3 {
 	color: #27ae60;
 	font-size: 1.5em;
 	line-height: 2em;
-	font-weight: 600;	
+	padding: 0px;
 }
 footer li {
 	color: #27ae60;
@@ -319,11 +372,22 @@ footer li {
 	text-align: center;
 	padding: 20px;
 }
-
+.title h3{
+	text-align: center;
+	padding: 10px;
+}
+.title h5{
+	text-align: center;
+	padding: 10px;
+}
+.imgfull img{
+	width: 800px;
+}
 .cfamb{
 	display: block;
 	padding: 20px;
 	margin: auto;
+	line-height: 1em;
 	text-align: center;
 }
 .imgblock{
@@ -336,12 +400,12 @@ footer li {
 }
 .imgblock p{
 	text-align: left;
+	line-height: 30px;
 }
 .imgblock h4{
 	text-align: left;
 	font-size: 1.2em;
 	color: black;
-	font-weight: 600;
 }
 
 .galery{
@@ -361,7 +425,6 @@ footer li {
 	width: 30%;
 }
 .faq{
-	padding: 20px;
 	margin: auto;
 	padding-top: 0px;
 	text-align: center;
@@ -369,10 +432,12 @@ footer li {
 }
 .faq div{
 	display: inline-block;
-	width: 45%;
+	width: 40%;
+	padding: 20px;
 }
 .faq p{
 	text-align: left;
+	line-height: 20px;
 }
 .faq h4{
 	color: black;
@@ -412,25 +477,27 @@ footer li {
 	padding: 20px;
 	padding-top: 0px;
 	margin-top: 0px;
+	padding-bottom: 80px;
 	}
 	.gray img{
+	height: 500px;
 	}
 	.white{
 	background-color: white;
+	height: 500px;
 	}
 	.white img{
 	height: 500px;
 	}
 	.clients img{
-	height: 20px;	
+	height: 20px;
+	padding-top: 20px;	
 	}
+
 	.content p{
 	font-size: 1.2em;
 	line-height: 2em;
 	letter-spacing: 2px;
-	}
-	.content h4{
-	display: none;
 	}
 	.hero h2{
 		font-size: 2.5em;
@@ -453,22 +520,55 @@ footer li {
 		padding-bottom: 5%;
 		text-align: center;
 	}
-
+.menu{
+	display: block;
+	text-align: center;
+	background-color: black;
+	height: 5em;
+	padding-top: .5em;
+	vertical-align: middle;
+}
+.menu nav a{
+	display: inline-block;
+	padding: .5em;
+	color: white;
+	padding-top: 1em;
+	vertical-align: middle;
+}
+.menu nav a:hover{
+	padding: .5em;
+	color: #2ecc71;	
+}
+.menu img {
+	display: inline-block;
+	vertical-align: middle;
+	padding-bottom: 5px;
+}
+.xmenu {
+	display: inline-block;
+	text-transform: uppercase;
+}
+.xmenu a{
+	vertical-align: middle;
+}
 
 
 }	
 @media only screen and (max-width: 837px){
 	.menu nav a{
-		padding: 1em;
+		padding: .4em;
 	}
 	.menu nav a:hover{
-	padding: 1em;
+		padding: .4em;
 	}
 	.hero h2{
 		font-size: 2.5em;
 	}
 	.clients img{
 		display: none;
+	}
+	.menu{
+		vertical-align: middle;
 	}
 }
 @media only screen and (max-width: 807px){
@@ -483,15 +583,28 @@ footer li {
 	}
 
 }
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 793px){
 	body{
 	font-size: 12px
 	}
 	.hero h2{
 		font-size: 2.5em;
 	}
-	menu nav a{
-		font-size: 2em;
+	.regularmenu{
+		display: none;
+	}
+	.hidden{
+		display: inline-block;
+	}
+	.menu nav a{
+		font-size: 1.2em;
+		padding: 1em;
+		padding-top: 1em;
+	}
+	.menu nav a:hover{
+		font-size: 1.2em;
+		padding: 1em;
+		padding-top: 1em;
 	}
 
 	.content h2 {
@@ -509,11 +622,8 @@ footer li {
 	.content p{
 		line-height: 1.5em;
 	}
-	.menu nav a{
-		padding: 0.5em;
-	}
-	.menu nav a:hover{
-		padding: 0.5em;
+	.menu .divisor{
+		display: none;
 	}
 	.demo{
 		display: none;
@@ -536,14 +646,17 @@ footer li {
 	.imgright, .imgleft{
 		display: none;
 	}
-	.white, .gray{
+	.white{
 		height: 400px;
 		display: inline-block;
 		clear: both;
 	}
-	footer{
-	
+	.gray{
+		height: 400px;
+		display: inline-block;
+		clear: both;
 	}
+
 	.galery img{
 	width: 40%;
 	}
@@ -555,12 +668,24 @@ footer li {
 
 @media only screen and (max-width: 500px){
 
+
 	div.branca{
-		display: inline-block;
+		display: inline;
 		float: left;
-		padding-top: 20px;
+		padding-left: 0px;
+		font-size: 16px;
+		vertical-align: middle;
+	}
+	div .branca img{
+		float: right;
+	}
+	.branca a{
+		color: white;
 	}
 	.vermelha{
+		display: none;
+	}
+	.regularmenu{
 		display: none;
 	}
 
@@ -581,6 +706,7 @@ footer li {
 		background-color: #2980b9;
 		display: block;
 		padding: 2em;
+
 		text-align: left;
 	}
 
@@ -595,7 +721,6 @@ footer li {
 		font-size: 40px;
 		text-align: left;
 		color: white;
-		font-weight: 600;
 		padding-top: 100px;
 	}
 
@@ -610,7 +735,6 @@ footer li {
 		font-size: 40px;
 		text-align: left;
 		color: white;
-		font-weight: 600;
 		padding-top: 100px;
 	}
 	#designer1{
@@ -665,6 +789,51 @@ footer li {
 		text-align: left;
 	}
 
+
+	#reccover h2{
+		font-size: 20px;
+		color: white;
+		text-align: left;
+		padding-top: 20px;
+	}
+
+	#reccover h1{
+		font-size: 40px;
+		text-align: left;
+		color: white;
+		font-weight: 600;
+		padding-top: 100px;
+	}
+	#reccover{
+		background-image: none;
+		background-color: #bdc3c7;
+		display: block;
+		padding: 2em;
+		text-align: left;
+	}
+	#reccover p{
+		display: none;
+	}
+
+
+	.title h2{
+		text-align: left;
+		padding: 10px;
+	}
+	.title h3{
+		text-align: left;
+		padding: 10px;
+		color: black;
+	}
+	.title h4{
+		text-align: left;
+		font-size: 15px;
+	}
+	.title h5{
+		text-align: left;
+		font-size: 16px;
+	}
+
 	.hero p{
 	display: none;	}
 
@@ -675,20 +844,7 @@ footer li {
 	padding: 1em;
 	margin-right: 0px;
 	}
-	.menu nav a {
-	display: inline-block;
-	width: 30%;
-	clear: both;
-	vertical-align: middle;
-	text-align: left;
-	}
-	.menu {
-		display: none;
-		height: 70px;
-	}
-	nav a{
-		color: black;
-	}
+
 	footer{
 		padding-left: 1em;
 	}
@@ -703,6 +859,23 @@ footer li {
 	}
 	.imgblock {
 		width: 100%;
+	}
+	.txtcenter{
+		padding: 10px;
+	}
+	.white{
+		height: 350px;
+		padding-left: 20px;
+	}
+	.gray{
+		height: 350px;
+		padding-left: 20px;
+	}
+	.faq div{
+		padding: 1	5px;
+	}
+	.faq p{
+		font-size: 16px;
 	}
 
 @media only screen and (max-width: 320px){
